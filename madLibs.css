@@ -1,0 +1,34 @@
+body{
+    background-color: darkseagreen;
+}
+
+.container, #h1{
+    width: 50%;
+    margin: auto;
+    background-color: thistle;
+    padding: 1em;
+}
+
+#formInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 1em;
+    background-color: thistle;
+    padding: 1em;
+    justify-content: center;
+}
+
+#submitBtn{
+    width: fit-content;
+}
+
+#result{
+    display: none;
+}
